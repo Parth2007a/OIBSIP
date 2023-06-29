@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <center>
+            <h2>Tempareture Converter</h2>
+        </center>
+        <form action="" name="form">
+            <div class="temp_calculator_input">
+                <div class="calculator_value">
+                    <label for="">Value To Convert:</label>
+                    <input type="text" placeholder="0" name="value" id="input_value">
+                </div>
+                <div class="calculator_input">
+                    <label for="">From:</label>
+                    <select name="input" id="from">
+                        <option>celsius</option>
+                        <option>fahrenheit</option>
+                    </select>
+                </div>
+                <div class="calculator_input">
+                    <label for="">To:</label>
+                    <select name="output" id="to">
+                        <option>celsius</option>
+                        <option>fahrenheit</option>
+                    </select>
+                </div>
+            </div>
+            <button type="button" id="Clear" class="cal_btn" onclick="clearform()">Clear</button>
+            <button type="button" id="Convert" class="cal_btn" onclick="converter()">Convert</button>
+            <div class="result_area">
+                Result:<h4 id="ans"></h4>
+            </div>
+        </form>
+
+       <script src="script.js"></script>   
+</body>
+</html>
