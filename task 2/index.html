@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>P</span>ortfolio.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Parth Patel</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>I am a front-end web developer, I can provide clean code and pixel perfect design.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <a href="#"><i class='bx bx-user-circle'></i></a>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <i class='bx bxs-user'></i>
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>I am a front-end web developer. I can provide clean code and pixel perfect design.
+                I also make the website more & more interactive with web animations. 
+               A responsive design makes your website accesible to all users, regardless of their device. 
+                We are builds the front-end portion of websites and web applications, the part users see and interact with us.</p>
+            <a href="#" class="btn">Read More</a>    
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>A web developer is a programmer who develops World Wide Web applications using a client-server model. 
+                    The applications typically use HTML, CSS, and JavaScript in the client. Designing responsive website landing pages.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxs-color'></i>
+                <h3>Web Design</h3>
+                <p>We are create the design and layout of a 
+                    website with their technical expertise and knowledge while keeping in mind the 
+                    client's requirements. Designing engaging and responsive website landing pages.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-paint' ></i>
+                <h3>Graphic Design</h3>
+                <p>The role of the graphic designer in the communication process is that of encoder or interpreter of the message. 
+                    They work on the interpretation, ordering, and presentation of visual messages.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="wd1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p> Web Developer Designing responsive website landing pages.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="wd2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p> We are create the design and layout of a website with their technical expertise.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="gd.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Graphic Design</h4>
+                    <p> They work on the interpretation, ordering, and presentation of visual messages.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer section -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Fenil Patel | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- java script -->
+    <script src="script.js"></script>
+
+</body>
+</html> 
